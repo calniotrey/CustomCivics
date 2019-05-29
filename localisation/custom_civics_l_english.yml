@@ -1,0 +1,6 @@
+﻿l_english:
+ # Trait Immortal
+ trait_ruler_immortal:0 "Immortal"
+ trait_ruler_immortal_desc:0 "§LThis leader has achieved immortality.§!\n"
+ civic_eternal_empire:0 "Eternal Empire"
+ civic_eternal_empire_desc:0 "Your leader has achieved immortality."
