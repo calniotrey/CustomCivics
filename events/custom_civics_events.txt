@@ -1,0 +1,18 @@
+namespace = custom_civics
+
+country_event = {
+	id = custom_civics.1
+	hide_window = yes
+	
+	fire_only_once = yes
+
+	trigger = {
+		has_valid_civic = civic_eternal_empire
+	}
+
+	immediate = {
+		leader = {
+			add_trait = trait_ruler_immortal
+		}
+	}
+}
