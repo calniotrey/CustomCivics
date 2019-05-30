@@ -2,5 +2,8 @@
  # Trait Immortal
  trait_ruler_immortal:0 "Immortal"
  trait_ruler_immortal_desc:0 "§LThis leader has achieved immortality.§!\n"
+ # Civic descriptions
  civic_eternal_empire:0 "Eternal Empire"
  civic_eternal_empire_desc:0 "Your leader has achieved immortality."
+ civic_terraforming:0 "Terraforming Adept"
+ civic_terraforming_desc:0 "Through years of ecological study, you have become adept at terraforming new worlds. But your population is used to live in a comfort world."

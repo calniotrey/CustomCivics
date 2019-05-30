@@ -1,18 +1,31 @@
-namespace = custom_civics
+namespace = start_civics
 
-country_event = {
-	id = custom_civics.1
+event = {
+	id = start_civics.1
 	hide_window = yes
+	is_triggered_only = yes
 	
-	fire_only_once = yes
-
-	trigger = {
-		has_valid_civic = civic_eternal_empire
-	}
-
 	immediate = {
-		leader = {
-			add_trait = trait_ruler_immortal
-		}
+		every_country = {
+			limit = {
+				is_country_type = default
+			}
+			
+			if = {
+				limit = {
+					has_civic = civic_eternal_empire
+				}
+				leader = {
+					add_trait = trait_ruler_immortal
+				}
+			}	
+
+			if = {
+				limit = {
+					has_civic = civic_terraforming
+				}
+				give_technology = { tech = tech_terrestrial_sculpting }
+			}		
+		}	
 	}
 }
