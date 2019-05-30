@@ -22,3 +22,19 @@ civic_terraforming = {
 		pop_environment_tolerance = -0.10
 	}
 }
+
+#Explorers
+civic_explorers = {
+	icon = "gfx/interface/icons/traits/leader_traits/trait_ruler_explorer.dds"
+	modification = no
+	random_weight = { base = 5 }
+	
+	modifier = {
+		science_ship_survey_speed = 0.30
+		ship_anomaly_research_speed_mult = 0.30
+		ship_anomaly_generation_chance_mult = 0.10
+		shipclass_science_ship_disengage_mult = 0.50
+		
+		pop_growth_speed = -0.01
+	}
+}

@@ -18,13 +18,20 @@ event = {
 				leader = {
 					add_trait = trait_ruler_immortal
 				}
-			}	
+			}
 
 			if = {
 				limit = {
 					has_civic = civic_terraforming
 				}
 				give_technology = { tech = tech_terrestrial_sculpting }
+			}
+
+			if = {
+				limit = {
+					has_civic = civic_explorers
+				}
+				give_technology = { tech = tech_experimental_subspace_navigation }
 			}		
 		}	
 	}
