@@ -32,9 +32,9 @@ civic_explorers = {
 	modifier = {
 		science_ship_survey_speed = 0.30
 		ship_anomaly_research_speed_mult = 0.30
-		ship_anomaly_generation_chance_mult = 0.10
+		ship_anomaly_generation_chance_mult = 0.15
 		shipclass_science_ship_disengage_mult = 0.50
 		
-		pop_growth_speed = -0.01
+		pop_growth_speed = -0.05
 	}
 }
